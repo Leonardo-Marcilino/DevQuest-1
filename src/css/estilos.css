@@ -1,0 +1,85 @@
+:root{
+    font-size: 62.5%;
+}
+body{
+    background: url('../images/bg-desktop.svg') no-repeat center center,
+    hsl(257, 40%, 49%);
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header{
+    align-self: flex-start;
+    margin: 50px 70px 100px;
+    width: 170px;
+}
+.header img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    gap: 50px;  
+    margin-bottom: 2rem;
+}
+
+.containerText{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    color: #fff;
+  
+}
+.containerText h1{
+    width: 400px;
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.containerText p{
+    width: 440px;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+.containerText .btnRegister{
+    align-self: flex-start;
+    padding: 15px 50px; 
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+.containerText .btnRegister:hover{
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+footer{
+    align-self: flex-end;
+    display: flex;
+    gap: 20px;
+    margin: 0px 100px;
+}
+footer i {
+    font-size: 1.6rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5rem;
+    padding: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer .fa-facebook-f{
+    padding: 10px 13px;
+}
+footer i:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);;
+}
